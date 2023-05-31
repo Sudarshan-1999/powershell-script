@@ -2,7 +2,7 @@ $remoteComputerName = "172.18.1.189"
 
 $username = ".\admin"
 
-$password = ConvertTo-SecureString "People_123$%" -AsPlainText -Force
+$password = ConvertTo-SecureString "******" -AsPlainText -Force
 
 $credential = New-Object System.Management.Automation.PSCredential($username, $password)
 
