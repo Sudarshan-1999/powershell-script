@@ -1,6 +1,6 @@
 $remoteComputerName = "172.18.1.189"
 $username = ".\Admin"
-$password = ConvertTo-SecureString "People_123$%" -AsPlainText -Force
+$password = ConvertTo-SecureString "********" -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential($username, $password)
 
 # Get the source and destination paths.
