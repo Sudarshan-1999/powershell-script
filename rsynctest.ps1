@@ -1,7 +1,7 @@
 $sourcePath = "D:\ansible-test"
 $remoteDestinationIP = "172.18.1.189"
 $remoteUsername = "admin"
-$remotePassword = "People_123$%"
+$remotePassword = "***********"
 $remotePath = "D:\test-sync"
 
 # Sync files from source to remote destination using Rsync over SSH
